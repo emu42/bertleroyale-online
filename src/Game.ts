@@ -142,7 +142,7 @@ const CardTypeProperies = new Map([
       passive:true}],
   [BertleRoyaleCardTypes.ANGRYBERT, 
     {name: 'Angrybert', 
-      description: 'Discard 1 passive card in front of you. Gain half its cost (rounded up).', 
+      description: 'Discard 1 passive card in play. Gain half its cost (rounded up).', 
       art:'angrybert.png',
       rarity:BertleRoyaleCardRarity.RARE, 
       copyies: 3,
