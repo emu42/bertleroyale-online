@@ -1,9 +1,9 @@
 // App.tsx
-import { Client } from 'boardgame.io/react';
+import {Client} from 'boardgame.io/react';
 
-import { BertleRoyale } from './Game';
+import {BertleRoyale} from './Game';
 
 const App = Client({
-  game: BertleRoyale,
+    game: BertleRoyale,
 });
 export default App;
